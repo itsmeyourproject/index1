@@ -1,0 +1,78 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+/* Utility Classes
+  .img-responsive {
+  	max-width: 100%;
+  } */
+
+.frame1 {
+	background: url(https://static1.squarespace.com/static/53ff083fe4b06d598893dcdf/53ff0e11e4b075777f4f4f0d/54675930e4b0c5b33f8b422b/1450008344683/Mirror+Houses+Slide+front.jpg) no-repeat;
+	-webkit-background-size: cover;
+background-size: cover;
+	height:100vh;
+	position: relative;
+}
+.one  {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.one h1 {
+	text_align: center;
+}
+.one span {
+	color:grey;
+	margin-left: 0rem;
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+.form_code {
+	text-align: center;
+
+}
+.form_code .two {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding:.4rem;
+	border: none;
+	outline: none;
+}
+.form_code button {
+	width: 40%;
+text-align: cneter;
+background-color: powderblue;
+color: white;
+padding:.6rem;
+	margin:.5rem auto 0rem;
+	border:none;
+	border-radius: .3rem;
+}
+/*Product Section*/
+
+.product {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.prod {
+	float: left;
+	width:32%;
+	margin-left: 1rem;
+}
+
+.prod:first-of-type {
+	margin-left: 0;
+}
+
+@media screen and(max-width: 700px){
+	.prod{
+		width: 100%;
+		float: none;
+	}
+}
